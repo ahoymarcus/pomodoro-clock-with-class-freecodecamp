@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.time-setting {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h1 { 
+	font-size: 2.7rem;
+	text-align: center;
+
+	margin: 15px 0;
+}
+
+.break-label, .session-label {
+	font-size: 1.5rem;
+	
+	margin: 10px 0 5px;
+}
+
+.time-control {
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	
+	font-size: 1.8rem;
+}
+
+.time-control button {
+	font-size: 2.2rem;
+	border: none;
+	cursor: pointer;
+}
+
+.clock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	
+	background-color: #ff926aa6;
+	width: 250px;
+	height: 11rem;
+	margin: auto;
+	border: 5px solid #1d2316;
+	border-radius: 50%;
+}
+
+.clock h2 { 
+	font-size: 2.2rem;
+}
+.clock p {
+	font-size: 4rem;
+}
+
+.clock-controls {
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 20px; 
+}
+.clock-controls button {
+	background-color: #ff926aa6;
+	padding: 20px; 
+	margin-right: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+
+
+

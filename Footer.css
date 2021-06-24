@@ -1,0 +1,17 @@
+footer {
+	color: #231b00c7;
+}
+
+footer p { 
+	position: fixed;
+	bottom: 0;
+	background-color: #87a9b5;
+	font-weight: 800;
+	width: 100%;
+	 
+	padding: 10px;
+}
+
+footer p:hover {
+	color: #615e45;
+}
